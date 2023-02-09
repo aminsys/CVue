@@ -1,6 +1,6 @@
 <template>
     <h3 id="avsnitt">Arbetslivserfarenhet</h3>
-    <div>
+    <div id="workSection">
         <ol>
             <li id="workItems" v-for="item in workItems">
                 {{ item.role }} - {{ item.company }} - {{ item.date }}
@@ -48,8 +48,8 @@ export default {
 
 <style>
 #avsnitt {
-    float: left;
-    margin: 10px;
+    text-align: left;
+    margin-left: 10px;
 }
 
 #workItems {
@@ -61,5 +61,9 @@ export default {
 #responsibilities {
     font-weight: normal;
     list-style-type: square;
+}
+
+#workSection {
+    text-align: left;
 }
 </style>
