@@ -1,5 +1,5 @@
 <template>
-    <h3 id="avsnitt">Arbetslivserfarenhet</h3>
+    <h3 id="section">Arbetslivserfarenhet</h3>
     <div id="workSection">
         <ol>
             <li id="workItems" v-for="item in workItems">
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style>
-#avsnitt {
+#section {
     text-align: left;
     margin-left: 10px;
 }
