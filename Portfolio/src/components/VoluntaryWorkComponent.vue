@@ -23,7 +23,7 @@ export default {
                     organisation: 'VSK',
                     date: '2013 - 2019',
                     responsibilities: [
-                        'Planerade och utförde träningspass samt koordinerade och åkte med på fotbollsmatcher med ungdomar i åldrarna10 – 12.'
+                        'Planerade och utförde träningspass samt koordinerade och åkte med på fotbollsmatcher med ungdomar i åldrarna 10 – 12.'
                     ],
                 }
             ],

@@ -3,11 +3,13 @@
   <ExpComponent></ExpComponent>
   <br />
   <VoluntaryWorkComponent></VoluntaryWorkComponent>
+  <br />
+  <CertComponent></CertComponent>
 </template>
 
 <script>
+import CertComponent from './components/CertComponent.vue';
 import ExpComponent from './components/ExpComponent.vue';
-import HelloWorld from './components/HelloWorld.vue'
 import InfoComp from './components/InfoComponent.vue'
 import VoluntaryWorkComponent from './components/VoluntaryWorkComponent.vue';
 
@@ -16,7 +18,8 @@ export default {
   components: {
     InfoComp,
     ExpComponent,
-    VoluntaryWorkComponent
+    VoluntaryWorkComponent,
+    CertComponent
   }
 }
 </script>
