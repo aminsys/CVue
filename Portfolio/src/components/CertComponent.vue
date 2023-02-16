@@ -9,12 +9,12 @@
             </li>
             </li>
         </ol>
-    </div>
+</div>
 </template>
 
 <script>
 export default {
-    name: 'exp',
+    name: 'certifications',
     data() {
         return {
             certItems: [

@@ -9,7 +9,7 @@
             </li>
             </li>
         </ol>
-    </div>
+</div>
 </template>
 
 <script>
