@@ -9,7 +9,7 @@
             </li>
             </li>
         </ol>
-</div>
+    </div>
 </template>
 
 <script>
@@ -35,14 +35,14 @@ export default {
 
 <style>
 #section {
+    font-size: xx-large;
     text-align: left;
-    margin-left: 10px;
+    padding-left: 15px;
 }
 
 #certItems {
     font-weight: bold;
     list-style-type: none;
-    margin-top: 20px;
 }
 
 #desc {
@@ -51,6 +51,6 @@ export default {
 }
 
 #certSection {
-    text-align: left;
+    padding: 25px;
 }
 </style>

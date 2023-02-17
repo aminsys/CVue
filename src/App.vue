@@ -11,16 +11,18 @@ const colorMode = useColorMode();
 </script>
 
 <template>
-  <button @click="toggleDark()" class="button">
-    <span v-if="isDark">Dark</span>
-    <span v-else>Light</span>
-  </button>
+  <div class="darkButton">
+    <button @click="toggleDark()" class="button">
+      <span v-if="isDark">Light mode</span>
+      <span v-else>Dark mode</span>
+    </button>
+  </div>
   <InfoComp myName="Amin Yassin" />
   <ExpComponent></ExpComponent>
   <br />
   <VoluntaryWorkComponent></VoluntaryWorkComponent>
   <br />
-<CertComponent></CertComponent>
+  <CertComponent></CertComponent>
 </template>
 
 <style>
@@ -29,6 +31,8 @@ const colorMode = useColorMode();
 }
 
 .button {
-  box-align: center;
+  float: right;
+  margin: 15px;
+  border: 1px dashed papayawhip;
 }
 </style>

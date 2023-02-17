@@ -9,7 +9,7 @@
             </li>
             </li>
         </ol>
-</div>
+    </div>
 </template>
 
 <script>
@@ -48,14 +48,12 @@ export default {
 
 <style>
 #section {
-    text-align: left;
-    margin-left: 10px;
+    font-size: xx-large;
 }
 
 #workItems {
     font-weight: bold;
     list-style-type: none;
-    margin-top: 20px;
 }
 
 #responsibilities {
@@ -64,6 +62,6 @@ export default {
 }
 
 #workSection {
-    text-align: left;
+    padding: 25px;
 }
 </style>

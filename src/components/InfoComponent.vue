@@ -48,5 +48,11 @@ img {
 
 #contactInfo {
     margin-top: -10px;
+    text-align: center;
+}
+
+#name {
+    font-size: xx-large;
+    text-align: center;
 }
 </style>
