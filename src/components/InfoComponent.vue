@@ -6,21 +6,21 @@
     <div id="contactInfo">
         <div id="ci">
             <!-- Image of phin by Those Icons -->
-            <img alt="Address" width="24px" height="24px" src="src/assets/pin.png" />
+            <img alt="Address" width="24px" height="24px" src="/src/assets/pin.png" />
             <p>Malmö</p>
         </div>
         <div id="ci">
             <!-- Image of email icon by khulqi Rosyid -->
-            <img alt="Email" width="24px" height="24px" src="src/assets/mail.png" />
+            <img alt="Email" width="24px" height="24px" src="/src/assets/mail.png" />
             <a href="mailto:amin.yassin@live.com">amin.yassin@live.com</a>
         </div>
         <div id="ci">
             <!-- Image of mobile phone by khulqi Rosyid -->
-            <img alt="Mobile Phone" width="24px" height="24px" src="src/assets/mobile-phone.png" />
+            <img alt="Mobile Phone" width="24px" height="24px" src="/src/assets/mobile-phone.png" />
             <a href="+46723980153" target="_blank">+46 723 980 153</a>
         </div>
         <div id="ci">
-            <img alt="Github" width="24px" height="24px" src="src/assets/github-mark.png" />
+            <img alt="Github" width="24px" height="24px" src="/src/assets/github-mark.png" />
             <a href="https://github.com/aminsys" target="_blank">github.com/aminsys</a>
         </div>
     </div>
