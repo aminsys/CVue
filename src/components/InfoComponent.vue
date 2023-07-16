@@ -17,7 +17,7 @@
         <div id="ci">
             <!-- Image of mobile phone by khulqi Rosyid -->
             <img alt="Mobile Phone" width="24px" height="24px" src="/src/assets/mobile-phone.png" />
-            <a href="+46723980153" target="_blank">+46 723 980 153</a>
+            <a href="+46" target="_blank">+46</a>
         </div>
         <div id="ci">
             <img alt="Github" width="24px" height="24px" src="/src/assets/github-mark.png" />

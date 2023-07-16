@@ -1,15 +1,14 @@
 <script setup>
-import CertComponent from './components/CertComponent.vue';
-import ExpComponent from './components/ExpComponent.vue';
-import InfoComp from './components/InfoComponent.vue';
-import VoluntaryWorkComponent from './components/VoluntaryWorkComponent.vue';
-import { useColorMode, useDark, useToggle } from '@vueuse/core';
+  import CertComponent from './components/CertComponent.vue';
+  import ExpComponent from './components/ExpComponent.vue';
+  import InfoComp from './components/InfoComponent.vue';
+  import VoluntaryWorkComponent from './components/VoluntaryWorkComponent.vue';
+  import { useColorMode, useDark, useToggle } from '@vueuse/core';
 
-const isDark = useDark();
-const toggleDark = useToggle(isDark);
-const colorMode = useColorMode();
+  const isDark = useDark();
+  const toggleDark = useToggle(isDark);
+  const colorMode = useColorMode();
 </script>
-
 <template>
   <div class="darkButton">
     <button @click="toggleDark()" class="button">
