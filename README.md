@@ -2,7 +2,7 @@
 [![pages-build-deployment](https://github.com/aminsys/CVue/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/aminsys/CVue/actions/workflows/pages/pages-build-deployment)
 ![Known Vulnerabilities](https://snyk.io/test/github/aminsys/CVue/badge.svg)
 
-Resumse built with Vue 3. See current results by visiting this [link](https://aminsys.github.io/CVue/)
+Resumse built with Vue 3. See current results by visiting this [link](https://aminsys.github.io/CVue/) (WORK IN PROGRESS)
 
 
 Packages used are as following:
