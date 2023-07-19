@@ -7,6 +7,7 @@
             <li id="responsibilities" v-for="r in item.responsibilities">
                 {{ r }}
             </li>
+            <br />
             </li>
         </ol>
     </div>
@@ -19,9 +20,19 @@ export default {
         return {
             workItems: [
                 {
+                    role: 'IT konsult',
+                    company: 'Experis AB',
+                    date: '2023-04 - Pågående',
+                    responsibilities: [
+                        'Kompetensutveckling inom API design och utveckling, API säkerhet, och CI/CD etablerade praxis.',
+                        'Programmering av API:er med ramverk som Spring Boot och .NET och verktyg som Swagger Editor och Postman.',
+                        'Utforskning av möjligheter för tillämpning av Docker och MongoDB i API projekten för egen kompetensutveckling.'
+                    ],
+                },
+                {
                     role: 'Systemutvecklare och förvaltare',
                     company: 'Formpipe Software AB',
-                    date: '2019-03 - Pågående',
+                    date: '2019-03 - 2023-04',
                     responsibilities: [
                         'Säkrar kodfunktionalitet i samband med kodmigrering vid uppgraderingsprojekt av ärendehanteringssytem i agilt team.',
                         'Åtgärdar buggar i användargränssnitt (UI) och dess logik (Backend).',
@@ -29,15 +40,6 @@ export default {
                         'Implementerar nya system och integrerar dessa i kunders befintliga ärendehanteringssystem.',
                         'Samarbetar med kollegor och internationella aktörer vid felsökningar av kunders system.'
                     ],
-                },
-                {
-                    role: 'Teknisk Support',
-                    company: 'Barkfors Fleet AB',
-                    date: '2020-05 - 2020-11',
-                    responsibilities: [
-                        'Utfört tekniska felsökningar av systemflöden, analys av EDI integrationer, och databasrättningar i SQL Server för diverse kunder.',
-                        'Gett vägledning till användare av transport- och faktureringssystem.'
-                    ]
                 }
             ],
         }
