@@ -24,9 +24,8 @@ export default {
                     company: 'Experis AB',
                     date: '2023-04 - Pågående',
                     responsibilities: [
-                        'Kompetensutveckling inom API design och utveckling, API säkerhet, och CI/CD etablerade praxis.',
-                        'Programmering av API:er med ramverk som Spring Boot och .NET och verktyg som Swagger Editor och Postman.',
-                        'Utforskning av möjligheter för tillämpning av Docker och MongoDB i API projekten för egen kompetensutveckling.'
+                    'Studerade design, utveckling och livscykelhantering av REST API:er genom kursmaterial via arbetsplatsen',
+                    'Implementerade REST API-projekt i C#, Docker och MongoDB'
                     ],
                 },
                 {
@@ -34,13 +33,25 @@ export default {
                     company: 'Formpipe Software AB',
                     date: '2019-03 - 2023-04',
                     responsibilities: [
-                        'Säkrar kodfunktionalitet i samband med kodmigrering vid uppgraderingsprojekt av ärendehanteringssytem i agilt team.',
-                        'Åtgärdar buggar i användargränssnitt (UI) och dess logik (Backend).',
-                        'Genomför felsökningar i databaser och tar fram databasskript för kunders varierande ändamål.',
-                        'Implementerar nya system och integrerar dessa i kunders befintliga ärendehanteringssystem.',
-                        'Samarbetar med kollegor och internationella aktörer vid felsökningar av kunders system.'
+                        'Utvecklade anpassade kontroller med C# och Javascript (i ASP.NET) för att bibehålla funktionalitet under uppgraderingsprojekt för kundens system',
+                        'Fixade UI- och logik buggar i samband med uppgraderingsprojektet till en nyare version av ett dokumenthanteringssystem',
+                        'Underhöll ärende- och dokumenthanteringssystem på fem olika projekt där datafelsökning och data korrigering en stor del av arbetsvardagen',
+                        'Undersökte möjligheten att implementera och använda Signing Portal för att signera dokument med utfärdade certifikat genom Telias certifikattjänst',
+                        'Ledde och implementerade produktions klara Signerings Portaler på två projekt och stöttade tre andra projekt av samma typ',
+                        'Skrev och underhöll över ett dussin databasskript för datavisualisering som användes i Manage Engine Analytics Plus och Power BI',
+                        'Var arbetsmentor för två kollegor som gav stöd till slutanvändare av ärendehanteringssystem i två långsiktiga projekt'
                     ],
-                }
+                },
+                {
+                    role: 'Teknisk support',
+                    company: 'Barkfors Fleet AB',
+                    date: '2020-05 - 2020-11',
+                    responsibilities: [
+                    'Undersökte grundorsakerna till dataavvikelser i SQL-databaser och EDI-filer (i XML-format) och korrigerade sådana avvikelser för ett dussin kunder in transportbranschen',
+                    'Stöttade slutanvändare med frågor och förtydliganden av användningen av transportprogrammet T5 av Barkfors Fleet AB via telefonsamtal och supportsystem',
+                    'Installerande nyare versioner av T5 på kundernas miljöer'
+                    ],
+                },
             ],
         }
     }
