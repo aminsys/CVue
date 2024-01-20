@@ -9,7 +9,7 @@
     "@vueuse/core": "^9.13.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.7",
+    "tailwindcss": "^3.4.0",
     "vue": "^3.3.13"
   },
   "devDependencies": {
